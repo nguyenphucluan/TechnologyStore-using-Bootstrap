@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="path/to/line-awesome/css/line-awesome-font-awesome.min.css">
+    <link rel="stylesheet" href="../public/stylesheet/styles.css">
+    <link rel="stylesheet" href="../public/javascript/main.js">
+    <title>Đăng ký</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 border">
+            <div class="container mt-3 text-primary">
+                <h2 class="px-5 text-center">Login</h2>
+                <form action="/login.html">
+                    <div class="mb-0 mt-0">
+                        <label for="name">Họ & tên:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nhập họ tên" name="name" required>
+                    </div>
+
+                    <div class="mb-0 mt-0">
+                        <label for="phone">Số điện thoại:</label>
+                        <input type="number" class="form-control" id="phone" placeholder="Nhập số điện thoại" name="phone" required>
+                    </div>
+
+                    <div class="mb-0 mt-0">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="mb-0 mt-0">
+                        <label for="date">Ngày sinh:</label>
+                        <input type="date" class="form-control" id="date" placeholder="" pattern="" required>
+                    </div>
+
+                    <div class="mb-0 mt-0">
+                        <label for="address">Địa chỉ:</label>
+                        <input type="text" class="form-control" id="address" placeholder="Nhập địa chỉ" name="address" required>
+                    </div>
+
+                    <div class="mb-0 mt-0">
+                        <label for="">Giới tính:</label>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Nam
+                            <label class="form-check-label" for="radio1"></label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Nữ
+                            <label class="form-check-label" for="radio2"></label>
+                        </div>
+                    </div>
+
+                    <div class="mb-0 mt-0">
+                        <label for="username">Tên tài khoản:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Nhập tên tài khoản" name="username" required>
+                    </div>
+
+                    <div class="mb-0 mt-0">
+                        <label for="pwd">Mật khẩu:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Nhập mật khẩu" name="pswd" required>
+
+                    </div>
+                    <div class="mb-0 mt-0">
+                        <label for="repwd">Xác nhận mật khẩu:</label>
+                        <input type="password" class="form-control" id="repwd" placeholder="Nhập lại mật khẩu" name="repswd" required>
+
+                    </div>
+
+                    <div class="d-grid p-2">
+                        <button type="submit" class="btn btn-primary justify-content-end">Đăng ký</button>
+                    </div>
+                    <p class="text-center"> <a href="/login.html" class="">Đăng nhập</a></p>
+                </form>
+
+            </div>
+        </div>
+        <div class="col-sm-4"></div>
+</body>
+
+</html>
